@@ -4,4 +4,6 @@
     <string name="hello_world">Hello world!</string>
     <string name="new_button">Button</string>
     <string name="action_settings">Settings</string>
+    <string name="text">Some Text</string>
+    <string name="etext">Text input</string>
 </resources>
