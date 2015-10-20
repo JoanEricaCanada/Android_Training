@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    android:id="@+id/linearLayout">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_button"
+            android:id="@+id/button35"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_button"
+            android:id="@+id/button36"
+            android:layout_below="@+id/button35"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="49dp"
+        android:layout_height="94dp"
+        android:text="@string/new_button"
+        android:id="@+id/button32" />
+
+    <Button
+        android:layout_width="49dp"
+        android:layout_height="94dp"
+        android:text="@string/new_button"
+        android:id="@+id/button33" />
+
+    <Button
+        android:layout_width="49dp"
+        android:layout_height="94dp"
+        android:text="@string/new_button"
+        android:id="@+id/button34" />
+
+</LinearLayout>
