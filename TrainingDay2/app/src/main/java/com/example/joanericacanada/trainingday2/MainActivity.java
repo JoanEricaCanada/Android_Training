@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends Activity implements OnClickListener {
     TextView txtViewOut;
@@ -37,10 +38,12 @@ public class MainActivity extends Activity implements OnClickListener {
             case R.id.btnOk:
                 Log.d(TAG, "OK button");
                 txtViewOut.setText("OK button was clicked");
+                Toast.makeText(this, "ОК button was clicked", Toast.LENGTH_LONG).show();
                 break;
             case R.id.btnCancel:
                 Log.d(TAG, "Cancel button");
                 txtViewOut.setText("Cancel button was clicked");
+                Toast.makeText(this, "Cancel button was clicked", Toast.LENGTH_LONG).show();
                 break;
         }
     }
