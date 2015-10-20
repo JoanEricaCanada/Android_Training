@@ -12,13 +12,13 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.myscreen);
 
-        ViewHolder hold = new ViewHolder();
+        /*ViewHolder hold = new ViewHolder();
         hold.editTxt = (EditText)findViewById(R.id.editText);
         hold.txtView = (TextView)findViewById(R.id.textView2);
         hold.button = (Button)findViewById(R.id.button9);
-        hold.chkBox = (CheckBox)findViewById(R.id.checkBox2);
+        hold.chkBox = (CheckBox)findViewById(R.id.checkBox2);*/
     }
 
     static class ViewHolder{
