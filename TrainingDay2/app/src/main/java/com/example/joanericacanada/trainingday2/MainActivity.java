@@ -3,6 +3,8 @@ package com.example.joanericacanada.trainingday2;
 import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -29,6 +31,21 @@ public class MainActivity extends Activity implements OnClickListener {
         Log.d(TAG, "assign listener to buttons");
         btnOK.setOnClickListener(this);
         btnCancel.setOnClickListener(this);
+    }
+
+
+    public boolean onCreateOptionsMenu(Menu menu){
+        menu.add("menu1");
+        menu.add("menu2");
+        menu.add("menu3");
+        menu.add("menu4");
+
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    public boolean onOptionsItemSelected(MenuItem item) {
+        Toast.makeText(this, item.getTitle(), Toast.LENGTH_SHORT).show();
+        return super.onOptionsItemSelected(item);
     }
 
     @Override
