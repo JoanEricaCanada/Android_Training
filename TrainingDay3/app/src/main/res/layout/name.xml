@@ -13,7 +13,7 @@
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Name">
+            android:text="@string/name_label">
         </TextView>
         <EditText
             android:id="@+id/etName"
@@ -30,6 +30,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="OK">
+        android:text="">
     </Button>
 </LinearLayout>

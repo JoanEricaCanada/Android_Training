@@ -9,8 +9,7 @@ import android.widget.TextView;
 
 public class MainActivity extends Activity implements View.OnClickListener{
 
-    TextView txtVwName;
-    Button btnName;
+    private TextView txtVwName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +17,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
         setContentView(R.layout.activity_main);
 
         txtVwName = (TextView)findViewById(R.id.tvName);
-        btnName= (Button)findViewById(R.id.btnName);
+        Button btnName= (Button)findViewById(R.id.btnName);
         btnName.setOnClickListener(this);
     }
 

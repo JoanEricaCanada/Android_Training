@@ -12,8 +12,7 @@ import android.widget.EditText;
  */
 public class NameActivity extends Activity implements View.OnClickListener {
 
-    EditText edtTxtName;
-    Button btnOk;
+    private EditText edtTxtName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState){
@@ -21,7 +20,7 @@ public class NameActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.name);
 
         edtTxtName = (EditText)findViewById(R.id.etName);
-        btnOk = (Button)findViewById(R.id.btnOK);
+        Button btnOk = (Button)findViewById(R.id.btnOK);
         btnOk.setOnClickListener(this);
     }
 
