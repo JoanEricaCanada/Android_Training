@@ -15,21 +15,21 @@ android:orientation="horizontal">
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="50dp"
-            android:text="TextView">
+            android:text="@string/txtViewOut">
         </TextView>
         <Button
             android:id="@+id/btnOk"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="OK">
+            android:text="@string/ok">
         </Button>
         <Button
             android:id="@+id/btnCancel"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:text="Cancel">
+            android:text="@string/cancel">
         </Button>
     </LinearLayout>
 </LinearLayout>

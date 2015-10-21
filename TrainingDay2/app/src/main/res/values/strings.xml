@@ -1,6 +1,13 @@
 <resources>
     <string name="app_name">TrainingDay2</string>
-
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="act2">This is Activity Two</string>
+    <string name="act1">Go to Activity Two</string>
+    <string name="txtViewOut">TextView</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="txtcolor">Text color</string>
+    <string name="txtsize">Text size</string>
+    <string name="expand">expanded menu</string>
 </resources>
