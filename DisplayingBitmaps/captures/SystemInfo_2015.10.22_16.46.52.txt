@@ -1,0 +1,157 @@
+Applications Memory Usage (kB):
+Uptime: 23308438 Realtime: 26877844
+
+Total PSS by process:
+    90215 kB: com.android.systemui (pid 890 / activities)
+    83110 kB: system (pid 746)
+    69216 kB: com.example.android.displayingbitmaps (pid 28754 / activities)
+    57370 kB: com.google.android.googlequicksearchbox (pid 1169 / activities)
+    50994 kB: com.google.android.inputmethod.latin (pid 1055)
+    43753 kB: com.google.android.googlequicksearchbox:search (pid 2290)
+    27032 kB: surfaceflinger (pid 176)
+    23589 kB: com.google.android.gms (pid 13504)
+    22663 kB: com.google.process.location (pid 13458)
+    20871 kB: com.android.phone (pid 1143)
+    17212 kB: com.google.process.gapps (pid 13476)
+    16920 kB: com.android.vending (pid 14157)
+    16433 kB: com.google.android.apps.docs (pid 25833)
+    14693 kB: com.android.nfc (pid 1094)
+    13271 kB: zygote (pid 199)
+     9662 kB: mediaserver (pid 188)
+     9545 kB: com.google.android.apps.plus (pid 25936)
+     9371 kB: android.process.media (pid 911)
+     7131 kB: android.process.acore (pid 16952)
+     6722 kB: com.google.android.gms.wearable (pid 14795)
+     4831 kB: com.android.musicfx (pid 14951)
+     4759 kB: com.google.android.googlequicksearchbox:interactor (pid 1030)
+     4279 kB: mm-qcamera-daemon (pid 201)
+     4133 kB: com.google.android.deskclock (pid 15902)
+     4109 kB: com.redbend.vdmc (pid 1122)
+     3831 kB: com.google.android.partnersetup (pid 25599)
+     3476 kB: rild (pid 186)
+     3475 kB: com.android.defcontainer (pid 25757)
+     3290 kB: com.qualcomm.qcrilmsgtunnel (pid 2739)
+     2853 kB: logd (pid 170)
+     2789 kB: drmserver (pid 187)
+     1575 kB: sensors.qcom (pid 195)
+     1386 kB: wpa_supplicant (pid 862)
+     1120 kB: thermal-engine-hh (pid 198)
+      910 kB: vold (pid 175)
+      894 kB: netd (pid 184)
+      687 kB: keystore (pid 191)
+      674 kB: sdcard (pid 200)
+      624 kB: netmgrd (pid 194)
+      608 kB: time_daemon (pid 202)
+      560 kB: adbd (pid 203)
+      549 kB: /init (pid 1)
+      544 kB: qmuxd (pid 193)
+      482 kB: rmt_storage (pid 177)
+      482 kB: bridgemgrd (pid 192)
+      448 kB: ueventd (pid 131)
+      447 kB: lmkd (pid 173)
+      434 kB: mpdecision (pid 1971)
+      371 kB: dhcpcd (pid 12942)
+      359 kB: qseecomd (pid 271)
+      348 kB: healthd (pid 171)
+      340 kB: logcat (pid 27047)
+      340 kB: logcat (pid 27055)
+      326 kB: debuggerd (pid 185)
+      316 kB: installd (pid 189)
+      297 kB: servicemanager (pid 174)
+      243 kB: qseecomd (pid 178)
+
+Total PSS by OOM adjustment:
+    78726 kB: Native
+               27032 kB: surfaceflinger (pid 176)
+               13271 kB: zygote (pid 199)
+                9662 kB: mediaserver (pid 188)
+                4279 kB: mm-qcamera-daemon (pid 201)
+                3476 kB: rild (pid 186)
+                2853 kB: logd (pid 170)
+                2789 kB: drmserver (pid 187)
+                1575 kB: sensors.qcom (pid 195)
+                1386 kB: wpa_supplicant (pid 862)
+                1120 kB: thermal-engine-hh (pid 198)
+                 910 kB: vold (pid 175)
+                 894 kB: netd (pid 184)
+                 687 kB: keystore (pid 191)
+                 674 kB: sdcard (pid 200)
+                 624 kB: netmgrd (pid 194)
+                 608 kB: time_daemon (pid 202)
+                 560 kB: adbd (pid 203)
+                 549 kB: /init (pid 1)
+                 544 kB: qmuxd (pid 193)
+                 482 kB: rmt_storage (pid 177)
+                 482 kB: bridgemgrd (pid 192)
+                 448 kB: ueventd (pid 131)
+                 447 kB: lmkd (pid 173)
+                 434 kB: mpdecision (pid 1971)
+                 371 kB: dhcpcd (pid 12942)
+                 359 kB: qseecomd (pid 271)
+                 348 kB: healthd (pid 171)
+                 340 kB: logcat (pid 27047)
+                 340 kB: logcat (pid 27055)
+                 326 kB: debuggerd (pid 185)
+                 316 kB: installd (pid 189)
+                 297 kB: servicemanager (pid 174)
+                 243 kB: qseecomd (pid 178)
+    83110 kB: System
+               83110 kB: system (pid 746)
+   129888 kB: Persistent
+               90215 kB: com.android.systemui (pid 890 / activities)
+               20871 kB: com.android.phone (pid 1143)
+               14693 kB: com.android.nfc (pid 1094)
+                4109 kB: com.redbend.vdmc (pid 1122)
+    69216 kB: Foreground
+               69216 kB: com.example.android.displayingbitmaps (pid 28754 / activities)
+    78416 kB: Visible
+               50994 kB: com.google.android.inputmethod.latin (pid 1055)
+               22663 kB: com.google.process.location (pid 13458)
+                4759 kB: com.google.android.googlequicksearchbox:interactor (pid 1030)
+    60965 kB: A Services
+               43753 kB: com.google.android.googlequicksearchbox:search (pid 2290)
+               17212 kB: com.google.process.gapps (pid 13476)
+    57370 kB: Home
+               57370 kB: com.google.android.googlequicksearchbox (pid 1169 / activities)
+    19383 kB: B Services
+                9371 kB: android.process.media (pid 911)
+                6722 kB: com.google.android.gms.wearable (pid 14795)
+                3290 kB: com.qualcomm.qcrilmsgtunnel (pid 2739)
+    89888 kB: Cached
+               23589 kB: com.google.android.gms (pid 13504)
+               16920 kB: com.android.vending (pid 14157)
+               16433 kB: com.google.android.apps.docs (pid 25833)
+                9545 kB: com.google.android.apps.plus (pid 25936)
+                7131 kB: android.process.acore (pid 16952)
+                4831 kB: com.android.musicfx (pid 14951)
+                4133 kB: com.google.android.deskclock (pid 15902)
+                3831 kB: com.google.android.partnersetup (pid 25599)
+                3475 kB: com.android.defcontainer (pid 25757)
+
+Total PSS by category:
+   169596 kB: Dalvik
+   108455 kB: Native
+    99040 kB: EGL mtrack
+    66826 kB: .dex mmap
+    53339 kB: .so mmap
+    41324 kB: GL mtrack
+    28737 kB: .oat mmap
+    23093 kB: .art mmap
+    21752 kB: Gfx dev
+    18474 kB: .apk mmap
+    13960 kB: Dalvik Other
+     8032 kB: Other mmap
+     6361 kB: Unknown
+     5776 kB: Stack
+     1798 kB: .ttf mmap
+      216 kB: Ashmem
+      159 kB: Other dev
+       20 kB: .jar mmap
+        4 kB: Cursor
+        0 kB: Other mtrack
+
+Total RAM: 1900556 kB (status normal)
+ Free RAM: 1198492 kB (89888 cached pss + 780948 cached kernel + 327656 free)
+ Used RAM: 700182 kB (577074 used pss + 123108 kernel)
+ Lost RAM: 1882 kB
+   Tuning: 192 (large 512), oom 184320 kB, restore limit 61440 kB (high-end-gfx)
